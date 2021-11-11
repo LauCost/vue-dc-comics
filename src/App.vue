@@ -1,21 +1,25 @@
 <template>
   <div id="app">
     <Header> </Header>
-    <NavBar></NavBar>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
-import NavBar from "./components/NavBar.vue";
+
 export default {
   name: "App",
   components: {
     Header,
-    NavBar,
   },
 };
 </script>
 
 <style lang="scss">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Greta Sans Condensed Bold", "Greta Sans Bold", Arial, sans-serif;
+}
 </style>
