@@ -1,6 +1,6 @@
 <template>
   <div class="cont">
-    <p>--> Content goes here --</p>
+    <p class="text_cont">--> Content goes here --</p>
   </div>
 </template>
 
@@ -15,7 +15,8 @@
   margin: auto;
   padding: 50px 0;
 }
-p {
+
+.text_cont {
   color: white;
   font-size: 30px;
   font-weight: 600;
