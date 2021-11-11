@@ -16,7 +16,7 @@
 <style lang="scss">
 nav {
   a {
-    padding: 70px 0;
+    padding: 60px 0;
     margin: 0 18px;
     text-decoration: none;
     color: #464646;
