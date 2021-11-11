@@ -1,6 +1,6 @@
 <template>
   <div class="blue">
-    <div class="cont">
+    <div class="cont dispi">
       <div class="utility">
         <img src="../../assets/img/buy-comics-digital-comics.png" alt="" />
         <p>DIGITAL COMICS</p>
@@ -30,7 +30,7 @@
 <style lang="scss">
 @import "../Style/variabile.scss";
 
-.cont {
+.dispi {
   display: flex;
   align-items: center;
   justify-content: space-between;
