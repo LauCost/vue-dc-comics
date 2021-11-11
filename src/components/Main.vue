@@ -1,16 +1,19 @@
 <template>
   <main>
-    <Content1 />
+    <Content />
+    <Utility />
   </main>
 </template>
 
 <script>
-import Content1 from "./ContentMain.vue";
+import Content from "./Content Main/ContentMain.vue";
+import Utility from "./Content Main/Utility.vue";
 
 export default {
   name: "App",
   components: {
-    Content1,
+    Content,
+    Utility,
   },
 };
 </script>

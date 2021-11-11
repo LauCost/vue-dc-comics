@@ -10,7 +10,7 @@
 
 
 <script>
-import NavBar from "./NavBar.vue";
+import NavBar from "./Content Header/NavBar.vue";
 
 export default {
   name: "App",
