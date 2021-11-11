@@ -28,8 +28,6 @@
 
 
 <style lang="scss">
-@import "../Style/variabile.scss";
-
 .dispi {
   display: flex;
   align-items: center;
@@ -43,6 +41,7 @@
 .utility {
   display: flex;
   align-items: center;
+  padding: 50px 0;
 
   img {
     width: 60px;

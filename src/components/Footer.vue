@@ -14,4 +14,5 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./Style/variabile.scss";
 </style>
