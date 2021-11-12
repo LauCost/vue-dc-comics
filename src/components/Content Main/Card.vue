@@ -1,5 +1,11 @@
 <template>
-  <div></div>
+  <section>
+    <h3>CURRENT SERIES</h3>
+    <div class="card" v-for="card in comicsCard" :key="card.series">
+      <img :src="card.thumb" alt="" />
+      <p>{{ card.series }}</p>
+    </div>
+  </section>
 </template>
 
 

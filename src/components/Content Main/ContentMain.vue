@@ -1,10 +1,18 @@
 <template>
   <div class="cont">
-    <p class="text_cont">--> Content goes here --</p>
+    <Cards />
   </div>
 </template>
 
+<script>
+import Cards from "./Card.vue";
 
+export default {
+  components: {
+    Cards,
+  },
+};
+</script>
 
 
 
