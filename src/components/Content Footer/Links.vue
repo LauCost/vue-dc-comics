@@ -73,10 +73,6 @@
   }
 }
 
-.flex {
-  display: flex;
-}
-
 .links {
   background-image: url("../../assets/img/dc-logo-bg.png");
   background-repeat: no-repeat;

@@ -28,12 +28,6 @@
 
 
 <style lang="scss">
-.dispi {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .blue {
   background-color: #0282f9;
 }
