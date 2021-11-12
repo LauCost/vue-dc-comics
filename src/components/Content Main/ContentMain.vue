@@ -6,6 +6,7 @@
       :image="card.thumb"
       :serie="card.series.toUpperCase()"
     />
+    <button class="load_series">LOAD MORE</button>
   </div>
 </template>
 
@@ -113,10 +114,12 @@ export default {
 
 
 <style lang="scss">
-/* h3 {
-  color: white;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 50px 0;
-} */
+.load_series {
+  padding: 15px 20px;
+  margin: 10px 0;
+  background-color: #303030;
+  border: 2px solid #0282f9;
+  color: #ffffff;
+  font-weight: bold;
+}
 </style>

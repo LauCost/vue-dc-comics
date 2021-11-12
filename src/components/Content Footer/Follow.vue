@@ -1,7 +1,7 @@
 <template>
   <div class="black">
     <div class="cont dispi">
-      <button>SIGN-UP NOW!</button>
+      <button class="sig">SIGN-UP NOW!</button>
       <div class="social flex">
         <p>FOLLOW US</p>
         <img src="../../assets/img/footer-facebook.png" alt="" />
@@ -19,7 +19,7 @@
   background-color: #303030;
 }
 
-button {
+.sig {
   padding: 15px 20px;
   margin: 50px 0;
   background-color: #303030;
