@@ -115,10 +115,10 @@ export default {
 
 <style lang="scss">
 .load_series {
-  padding: 15px 20px;
+  padding: 10px 65px;
   margin: 10px 0;
-  background-color: #303030;
-  border: 2px solid #0282f9;
+  background-color: #0282f9;
+  border: none;
   color: #ffffff;
   font-weight: bold;
 }
