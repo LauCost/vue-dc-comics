@@ -4,7 +4,7 @@
       v-for="card in comicsCard"
       :key="card.series"
       :image="card.thumb"
-      :serie="card.series"
+      :serie="card.series.toUpperCase()"
     />
   </div>
 </template>

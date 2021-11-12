@@ -17,14 +17,20 @@ export default {
 
 <style lang="scss">
 .card {
-  width: 12%;
-  margin: 30px;
+  width: 13%;
+  margin: 30px 15px;
 
   img {
-    width: 100%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: top;
   }
-}
-p {
-  color: #ffffff;
+
+  p {
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 12.5px;
+  }
 }
 </style>
